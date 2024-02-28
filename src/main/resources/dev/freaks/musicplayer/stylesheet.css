@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.linear-grad-to-bottom{
+    -fx-background-color: linear-gradient(to bottom, #ff7f50, #6a5acd);
+}
+
+.linear-grad-to-top{
+    -fx-background-color: linear-gradient(to top, #ff7f50, #6a5acd);
+}
+
+.linear-grad-to-left{
+    -fx-background-color: linear-gradient(to left, #ff7f50, #6a5acd);
+}
+
+.linear-grad-to-right{
+    -fx-background-color: linear-gradient(to right, #ff7f50, #6a5acd);
+}
+
+.linear-grad-to-bottom-left{
+    -fx-background-color: linear-gradient(to bottom left, #ff7f50, #6a5acd);
+}
+
+.linear-grad-to-bottom-right{
+    -fx-background-color: linear-gradient(to bottom right, #ff7f50, #6a5acd);
+}
+
+.linear-grad-to-top-left{
+    -fx-background-color: linear-gradient(to top left, #ff7f50, #6a5acd);
+}
+
+.linear-grad-to-top-right{
+    -fx-background-color: linear-gradient(to top right, #ff7f50, #6a5acd);
+}
+
+.list-cell{
+    -fx-font-size:14.0;
+    -fx-font-family:Roboto;
+}
+
+/*chart area*/
+.chart{
+    -fx-background-color: transparent;
+}
+
+.default-color0.chart-series-line { -fx-stroke: #60CC96; }
+
+.titled-pane > *.content
+{
+    -fx-background-color: transparent;
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.axis {
+    -fx-border-color: transparent;
+}
+
+.default-color0.chart-series-area-line {
+    -fx-stroke: transparent;
+}
+
+.default-color0.chart-series-area-fill {
+    -fx-fill: linear-gradient(to bottom, -fx-focus-color 75%, grey);
+}
+
+/* Styling the slider track */
+.jfx-slider > .track {
+    -fx-background-color: grey;
+}
+
+/* Styling the slider thumb */
+.jfx-slider > .thumb {
+    -fx-background-color: #ffffff;
+}
+
+/* Styling the filled track */
+.jfx-slider > .colored-track {
+    -fx-background-color: #ffffff;
+}
+
+/* Styling the animated thumb */
+.jfx-slider > .animated-thumb {
+    -fx-background-color: #ffffff;
+}
+
+/* Styling the slider value text inside animated thumb */
+.jfx-slider .slider-value {
+    -fx-fill: #513E6D;
+    -fx-stroke: #513E6D;
+}
